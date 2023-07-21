@@ -20,4 +20,4 @@ function welcomePeople(x: string[] | string) {
     }
 }
 
-welcomePeople(["Bhanu", "Prakash", "Tankasala"])
+welcomePeople(["Bhanu", "Prakash", "Tankasalaa"])
