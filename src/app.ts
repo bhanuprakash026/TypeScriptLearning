@@ -21,3 +21,20 @@ function welcomePeople(x: string[] | string) {
 }
 
 welcomePeople(["Bhanu", "Prakash", "Tankasalaa"])
+
+const personName = {
+  name: "Bhanu Prakash",
+  age: 23
+}
+
+let copiedPersonName = {...personName}
+console.log(personName)
+console.log(copiedPersonName)
+if(copiedPersonName === personName){
+  console.log(true)
+} else {
+  console.log(false)
+}
+
+const updatedPerson = {...personName, age:22}
+console.log(updatedPerson)
